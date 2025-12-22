@@ -7,7 +7,7 @@ function App() {
   return (
     <>
      <div>
-      <h1>task-management-client</h1>
+      <h1>Task Management</h1>
      </div>
     </>
   )
