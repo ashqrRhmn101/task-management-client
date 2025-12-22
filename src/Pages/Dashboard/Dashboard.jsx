@@ -1,11 +1,13 @@
-import React from 'react';
+import TaskBoard from "../../Components/TaskBoard";
+import TaskForm from "../../Components/TaskForm";
 
-const Dashboard = () => {
-    return (
-        <div>
-            <h1>Dash</h1>
-        </div>
-    );
-};
 
-export default Dashboard;
+export default function Dashboard() {
+  return (
+    <div className="space-y-6">
+      <h1 className="text-2xl font-bold">Task Dashboard</h1>
+      <TaskForm />
+      <TaskBoard />
+    </div>
+  );
+}
